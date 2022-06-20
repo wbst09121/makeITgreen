@@ -1,0 +1,291 @@
+html,body{
+	padding: 0;
+	margin: 0;
+
+    font-family: Montserrat;
+}
+
+body{
+    font-size: 16px;
+    line-height: 1.3;
+    background-color: #425f4b;
+
+    border-width: 0px;
+
+    box-sizing: border-box;
+}
+
+.container a,a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.container ul li:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+
+.container ul li:clicked{
+    transform: scale(1.2);
+}
+
+header  {
+    background: #F5F5F5;
+    margin: 0px;
+
+    height: 100px;
+    width: 100%;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header img{
+    float: left;
+
+    width: 250px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+header nav{
+    float: right;
+    margin: 10px 45px 20px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+header li {
+    position: relative;
+    display: inline-block;
+
+    margin-left: 20px;
+    padding: 18px;
+
+    text-transform: uppercase;
+    border-radius: 10px;
+
+    list-style: none;
+}
+
+.banner{
+    background: url('../Assets/homescreen.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 67px);
+    position: relative;
+    overflow: hidden;
+    margin: 50px 50px 20px 50px;  
+
+    border-radius: 20px; 
+    padding-bottom: 50px;
+}
+
+.bannerInfo{
+    color: white;
+    text-align: end;
+}
+
+.bannerInfo h1{
+    font-size: 75px;
+    margin-right: 100px;
+    text-transform: uppercase;
+}
+
+.bannerInfo h3{
+    margin: 250px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 30px;
+
+    font-weight: 400;
+}
+
+
+/* MAIN */
+.FTitle{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.FTitle h1{
+    font-size: 60;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.FirstSet ul {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.FirstSet ul li{
+    list-style: none;
+    width: 33.33%%;
+    margin-left: 100px;
+}
+.FirstSet ul li img{
+    width: 100%;
+    
+    border-radius: 500px;
+}
+
+.FirstSet ul li h5{
+    text-align: center;
+    background-color: #B0CEA5;
+    font-family: 'Verdana';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.SecondSet ul {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.SecondSet ul li{
+    list-style: none;
+    width: 33.33%%;
+    margin-left: 100px;
+}
+.SecondSet ul li img{
+    width: 100%;
+    
+    border-radius: 500px;
+}
+
+.SecondSet ul li h5{
+    text-align: center;
+    background-color: #B0CEA5;
+    font-family: 'Verdana';
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.SecondContainer{
+    background-color: #B0CEA5;
+    margin: 0;
+}
+
+.CompanyInformation{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.SecondInformation{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.SecondInformation h3{
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+
+.EmailButton {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.EmailButton a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+    padding: 10px 50px;
+}
+h1{
+   font-family: 'Montserrat'; 
+}
+
+p{
+    font-family: 'Arial';
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    color: #222222;
+    width: 100%;
+    background: #F5F5F5;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}   
+
+.footer-img img {
+    float: left;
+
+    width: 250px;
+    padding: 20px;
+}
+
+.footerdesign{
+    display: flex;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h5 {
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-socials img {
+    border-radius: 50px;
+    width: 50px;
+
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

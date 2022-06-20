@@ -1,0 +1,259 @@
+html,body{
+	padding: 0;
+	margin: 0;
+
+    font-family: Montserrat;
+    color: white;
+}
+
+body{
+    font-size: 16px;
+    line-height: 1.3;
+    background-color: #425f4b;
+
+    border-width: 0px;
+
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+ul li:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+ul li:clicked{
+    transform: scale(1.2);
+}
+
+header  {
+    background: #F5F5F5;
+    margin: 0px;
+
+    height: 100px;
+    width: 100%;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header img{
+    float: left;
+
+    width: 250px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+header nav{
+    float: right;
+    margin: 10px 45px 20px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+header li {
+    position: relative;
+    display: inline-block;
+
+    margin-left: 20px;
+    padding: 18px;
+
+    text-transform: uppercase;
+    border-radius: 10px;
+
+    list-style: none;
+}
+
+/* For the Title Header */
+.title-header {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 30px;
+}
+
+.title-header h1 {
+    margin: 0;
+    font-family: 'Montserrat'; 
+    font-size: 60px;
+}
+
+.title-header h3 {
+    margin: 0;
+    font-family: 'Arial';
+    font-weight: 400;
+}
+p{
+    font-family: 'Arial';
+    font-size: 20px;
+}
+
+/* For the Slider Container */
+.slider-container {
+    width: 1900px;
+    height: 470px;
+    margin: 0;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.aboutgame-container img {
+    max-width: 465px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    width: 900px;
+    height: 500px;
+    position: relative;
+    transition: top 2s;
+    -webkit-transition: top 2s;
+    -moz-transition: top 2s;
+    -o-transition: top 2s;
+}
+
+.slider-image {
+    max-width: 500px;
+    max-height: 500px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.button-container {
+    position: absolute;
+    bottom: -90px;
+    left: 250px;
+}
+
+.slider-button {
+    display: inline-block;
+
+    margin-left: 3px;
+
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#slider-image-1:target ~ .image-container {
+    top: 0px;
+}
+
+#slider-image-2:target ~ .image-container {
+    top: -470;
+}
+
+#slider-image-3:target ~ .image-container {
+    top: -945px;
+}
+
+.aboutgame-container {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 50px;
+    padding: 50px;
+
+    align-items: center;
+}
+
+.aboutgame-container p {
+    line-height: 1.6em;
+    
+    text-align: justify;
+}
+
+/* Information Section */
+.information {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 20px;
+    color: white;
+
+    padding: 10px 50px 30px 50px;
+    margin-bottom: 10px;
+}
+
+.info-button{
+    padding: 15px 25px;
+
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.info-button:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    color: #222222;
+    width: 100%;
+    background: #F5F5F5;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}   
+
+.footer-img img {
+    float: left;
+
+    width: 250px;
+    padding: 20px;
+}
+
+.footerdesign{
+    display: flex;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h5 {
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.footer-socials img {
+    border-radius: 50px;
+    width: 50px;
+
+    padding: 10px;
+}

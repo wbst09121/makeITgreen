@@ -1,0 +1,241 @@
+html,body{
+	padding: 0;
+	margin: 0;
+
+    font-family: Montserrat;
+}
+
+body{
+    font-size: 16px;
+    line-height: 1.3;
+    background-color: #425f4b;
+
+    border-width: 0px;
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    text-decoration: none;
+    color: #333;
+}
+
+.ImageHowToPlay {
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+    border-radius: 3%;
+}
+
+ul li:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+ul li:clicked{
+    transform: scale(1.2);
+}
+
+header  {
+    background: #F5F5F5;
+    margin: 0px;
+
+    height: 100px;
+    width: 100%;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header img{
+    float: left;
+
+    width: 250px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+header nav{
+    float: right;
+    margin: 10px 45px 20px 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+header li {
+    position: relative;
+    display: inline-block;
+
+    margin-left: 20px;
+    padding: 18px;
+
+    text-transform: uppercase;
+    border-radius: 10px;
+
+    list-style: none;
+}
+.bannerInfo{
+    color: white;
+    text-align: end;
+}
+
+.bannerInfo h1{
+    font-size: 75px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;;
+    
+}
+
+.bannerInfo h2 {
+    text-align: center;
+    margin-top: 0%;
+    font-style: oblique;
+    margin-bottom: 2%;
+    font-family: 'Lucida Sans Calligraphy';
+    
+}
+
+
+
+/* Responsive columns X*/
+.column {
+    width: 70%;
+    display: grid;
+    margin-bottom: 50px;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: #425f4b;
+}
+
+.card h2 {
+    text-align: center;
+    font-weight: 1000;
+    margin-bottom: 0%;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    border-width: 2px;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 1%;
+    font-family: 'Lucida Sans Calligraphy';
+}
+
+.ImageHowToPlay{
+    margin: 0 0 0 370;
+}
+
+h1{
+   font-family: 'Montserrat'; 
+}
+
+p{
+    font-family: 'Arial';
+}
+
+
+
+/* Information Section */
+.information {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 20px;
+    color: white;
+
+    padding: 50px 50px;
+    margin-bottom: 10px;
+}
+
+.info-button{
+    padding: 15px 25px;
+
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+.info-button:hover{
+    transform: scale(1.2);
+    font-weight: 600;
+}
+
+/* Footer */
+.footer {
+    color: #222222;
+    width: 100%;
+    background: #F5F5F5;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}   
+
+.footer-img img {
+    float: left;
+
+    width: 250px;
+    padding: 20px;
+}
+
+.footerdesign{
+    display: flex;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h5 {
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 10px;
+}
+
+.footer-socials img {
+    border-radius: 50px;
+    width: 50px;
+
+    padding: 10px;
+}
